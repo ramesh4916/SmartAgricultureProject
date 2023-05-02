@@ -1,0 +1,232 @@
+.hi {
+    width: 100%;
+    height: 500px;
+}
+.sa{
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 2px solid red;
+    margin-left: 25%;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight:bolder ;
+    color:rgb(8, 73, 147);
+    
+}
+.futureimgs{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.data{
+    width: 50%;
+    max-height: 500px;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sa1{
+    width: 100%;
+    min-height: 30px;
+    /* background-color: red; */
+    margin-left: 25%;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom:2px solid red;
+    color:rgb(8, 73, 147);
+}
+.fimg2{
+    margin-left: 25%;
+    margin-top: 5px;
+}
+.fimg2,img{
+    width: 88vh;
+}
+.data1{
+    width: 50%;
+    max-height: 500px;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sa3{
+    margin-left: 25%;
+    width: 100%;
+    min-height: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:rgb(8, 73, 147);
+    border-bottom: 2px solid red;
+}
+.fimg3{
+  margin-left: 25%;
+  margin-top: 10px;
+}
+.data3{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.data::first-letter{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data1::first-letter{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 1px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data3::first-letter{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 1px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+
+    padding-top: 40px;
+    color: #fff;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+.input_login{
+    width: 100%;
+    height: auto;
+    background-color: #44bae8;
+    text-align:right;
+    padding-right: 10px;
+}
+.input_login,.ankar{
+    color:black;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-content,.h3{
+    font-family: cursive;
+}
+

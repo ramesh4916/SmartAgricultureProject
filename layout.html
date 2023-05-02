@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        #header{
+            width: 100%;
+            min-height: 50px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 50px;
+        }
+        #nav{
+            width: 100%;
+            min-height: 100px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        
+        }
+        #main{
+            width: 100%;
+            min-height: 300px;
+            /* background-color: lightblue; */
+            
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .left{
+            width: 25%;
+            min-height: 300px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 300px;
+            float: left;
+            
+        }
+        .middle{
+            width: 48.8%;
+            min-height: 300px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 300px;
+            float: left;
+            margin-left: 10px;
+        }
+        .right{
+            width: 25%;
+            min-height: 300px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 300px;
+            float: right;
+        }
+        /* .left::nth-child(2){
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .middle::nth-child(3){
+            margin-left: 10px;
+            margin-right: 10px;
+        } */
+        #footer{
+            width: 100%;
+            min-height: 120px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 120px;
+            margin-top: 10px;
+        }
+        #wrap{
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+    <div id="header">Header</div>
+    <div id="nav">Navigation</div>
+    <div id="main"class="clearfix">
+        <div class="left">left</div>
+        <div class="middle">middle</div>
+        <div class="right">right</div>
+    </div>
+    <div id="footer">Footer</div>
+</div>
+</body>
+</html>
